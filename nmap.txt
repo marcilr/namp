@@ -1,0 +1,37 @@
+nmap.txt
+Created Wed Jul 26 13:35:49 AKDT 2017
+Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+nmap - Network exploration tool and security / port scanner
+
+
+Nmap (“Network Mapper”) is an open source tool for network
+exploration and security auditing.  It was designed to rapidly
+scan large networks, although it works fine against single
+hosts.  Nmap uses raw IP packets in novel ways to determine
+what hosts are available on the network, what services
+(application name and version) those hosts are offering,
+what operating systems (and OS versions) they are running,
+what type of packet filters/firewalls are in use, and dozens
+of other characteristics. While Nmap is commonly used for
+security audits, many systems and network administrators find
+it useful for routine tasks such as network inventory,
+managing service upgrade schedules, and monitoring host or
+service uptime.
+--man, 2.7.0.2, 2014-09-28
+
+
+
+How do I know if a remote machine is using Windows or Linux?
+============================================================
+It isn't definitive but nmap will do this with the command:
+  nmap -O -v
+
+--superuser.com/questions/393614/...
+
+
+Links
+=====
+How do I know if a remote machine is using Windows or Linux?
+https://superuser.com/questions/393614/how-do-i-know-if-a-remote-machine-is-using-windows-or-linux
